@@ -5,6 +5,6 @@ RUN  pip install --upgrade pip
 RUN  pip install --upgrade google-api-python-client
 RUN pip install -r requirement.txt
 EXPOSE  5000
-RUN -p 5000:5000
+RUN -d -p 5000:5000
 CMD python ./main.py
 
