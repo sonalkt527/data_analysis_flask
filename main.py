@@ -15,8 +15,8 @@ def home():
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    username = request.form.get('result')
-    result=model.get_id("s","tseries")
+    username = request.form.get('username')
+    result=model.get_id('s',username)
     return jsonify(result)
 
 if __name__ == '__main__':

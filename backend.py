@@ -4,7 +4,7 @@ import google_auth_oauthlib.flow
 import googleapiclient.discovery
 import googleapiclient.errors
 
-api_key='AIzaSyBdwOjnzEn_IE1krwVVf64HH3z8TPZHyfk'
+api_key='AIzaSyBUbyG9fmHzFR1kEy3dekOmPCaHgt6wVkM'
 youtube=build('youtube','v3',developerKey=api_key)
 
 
